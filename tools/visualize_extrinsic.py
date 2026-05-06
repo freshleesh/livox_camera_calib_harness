@@ -116,12 +116,13 @@ def main():
     print(f"R =\n{R}")
     print(f"t = {t}")
     print()
-    for i in range(8):
-        pcd = DATA / "pcd" / f"scene_{i:02d}.pcd"
-        img = DATA / "images" / f"scene_{i:02d}.png"
-        out = args.out / f"proj_scene_{i:02d}.png"
-        if not pcd.exists() or not img.exists():
-            print(f"skip scene_{i:02d}: missing input")
+    pcds = sorted((DATA / "pcd").glob("scene_*.pcd"))
+    for pcd in pcds:
+        idx = pcd.stem.split("_")[1]
+        img = DATA / "images" / f"scene_{idx}.png"
+        out = args.out / f"proj_scene_{idx}.png"
+        if not img.exists():
+            print(f"skip scene_{idx}: missing image")
             continue
         overlay_one(pcd, img, out, R, t)
 
