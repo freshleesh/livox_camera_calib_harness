@@ -3,6 +3,7 @@
 the extrinsic written by livox_camera_calib, so the calibration
 quality can be eyeballed."""
 
+import argparse
 from pathlib import Path
 
 import cv2
@@ -10,9 +11,6 @@ import numpy as np
 
 WS = Path(__file__).resolve().parent.parent
 DATA = WS / "data"
-EXTR = DATA / "results" / "extrinsic.txt"
-OUT = DATA / "results" / "viz"
-OUT.mkdir(parents=True, exist_ok=True)
 
 # See3cam intrinsics (from fast_livo/config/camera_see3cam.yaml)
 K = np.array([
@@ -100,14 +98,28 @@ def overlay_one(pcd_path: Path, img_path: Path, out_path: Path,
 
 
 def main():
-    R, t = read_extrinsic(EXTR)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--extrinsic",
+        type=Path,
+        default=DATA / "results" / "extrinsic.txt",
+    )
+    parser.add_argument(
+        "--out",
+        type=Path,
+        default=DATA / "results" / "viz",
+    )
+    args = parser.parse_args()
+    args.out.mkdir(parents=True, exist_ok=True)
+
+    R, t = read_extrinsic(args.extrinsic)
     print(f"R =\n{R}")
     print(f"t = {t}")
     print()
     for i in range(8):
         pcd = DATA / "pcd" / f"scene_{i:02d}.pcd"
         img = DATA / "images" / f"scene_{i:02d}.png"
-        out = OUT / f"proj_scene_{i:02d}.png"
+        out = args.out / f"proj_scene_{i:02d}.png"
         if not pcd.exists() or not img.exists():
             print(f"skip scene_{i:02d}: missing input")
             continue
