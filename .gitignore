@@ -6,12 +6,14 @@ log/
 .catkin_workspace
 src/CMakeLists.txt
 
-# Captured calibration data — large binary, regenerate per machine
+# Captured calibration data
 data/pcd/*
 data/images/*
 data/results/*
 !data/pcd/.gitkeep
+!data/pcd/*.pcd
 !data/images/.gitkeep
+!data/images/*.png
 !data/results/.gitkeep
 
 # Cloned third-party source — pulled by setup.sh
