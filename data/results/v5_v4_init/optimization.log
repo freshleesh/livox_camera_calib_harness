@@ -1,0 +1,567 @@
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+libGL error: MESA-LOADER: failed to retrieve device information
+libGL error: MESA-LOADER: failed to open nvidia-drm: /usr/lib/dri/nvidia-drm_dri.so: cannot open shared object file: No such file or directory (search paths /usr/lib/x86_64-linux-gnu/dri:\$${ORIGIN}/dri:/usr/lib/dri, suffix _dri)
+libGL error: failed to load driver: nvidia-drm
+libGL error: MESA-LOADER: failed to retrieve device information
+libGL error: MESA-LOADER: failed to open nvidia-drm: /usr/lib/dri/nvidia-drm_dri.so: cannot open shared object file: No such file or directory (search paths /usr/lib/x86_64-linux-gnu/dri:\$${ORIGIN}/dri:/usr/lib/dri, suffix _dri)
+libGL error: failed to load driver: nvidia-drm
+[0m[INFO] [1778672367.046847197]: Sucessfully load calib config file[0m
+[0m[INFO] [1778672367.057903862]: Sucessfully load image![0m
+[0m[INFO] [1778672367.072280286]: Sucessfully extract edge from image, edge size:6417[0m
+[0m[INFO] [1778672367.072294633]: Loading point cloud from pcd file.[0m
+[0m[INFO] [1778672367.254498803]: Sucessfully load pcd, pointcloud size: 4000032[0m
+[0m[INFO] [1778672367.254516376]: Building Voxel[0m
+[0m[INFO] [1778672379.511575639]: Extracting Lidar Edge[0m
+[0m[INFO] [1778672394.195201922]: Sucessfully load calib config file[0m
+[0m[INFO] [1778672394.204132907]: Sucessfully load image![0m
+[0m[INFO] [1778672394.209962783]: Sucessfully extract edge from image, edge size:7696[0m
+[0m[INFO] [1778672394.209973342]: Loading point cloud from pcd file.[0m
+[0m[INFO] [1778672394.389717306]: Sucessfully load pcd, pointcloud size: 3999936[0m
+[0m[INFO] [1778672394.389737023]: Building Voxel[0m
+[0m[INFO] [1778672406.235764523]: Extracting Lidar Edge[0m
+[0m[INFO] [1778672420.201744705]: Sucessfully load calib config file[0m
+[0m[INFO] [1778672420.211158892]: Sucessfully load image![0m
+[0m[INFO] [1778672420.216749911]: Sucessfully extract edge from image, edge size:7566[0m
+[0m[INFO] [1778672420.216761432]: Loading point cloud from pcd file.[0m
+[0m[INFO] [1778672420.396280104]: Sucessfully load pcd, pointcloud size: 4000032[0m
+[0m[INFO] [1778672420.396300753]: Building Voxel[0m
+[0m[INFO] [1778672432.352000476]: Extracting Lidar Edge[0m
+[0m[INFO] [1778672445.965724183]: Sucessfully load calib config file[0m
+[0m[INFO] [1778672445.974521557]: Sucessfully load image![0m
+[0m[INFO] [1778672445.980630563]: Sucessfully extract edge from image, edge size:7993[0m
+[0m[INFO] [1778672445.980641193]: Loading point cloud from pcd file.[0m
+[0m[INFO] [1778672446.160992459]: Sucessfully load pcd, pointcloud size: 4000032[0m
+[0m[INFO] [1778672446.161014901]: Building Voxel[0m
+[0m[INFO] [1778672459.073300256]: Extracting Lidar Edge[0m
+[0m[INFO] [1778672472.265938281]: Sucessfully load calib config file[0m
+[0m[INFO] [1778672472.275535419]: Sucessfully load image![0m
+[0m[INFO] [1778672472.281249887]: Sucessfully extract edge from image, edge size:6528[0m
+[0m[INFO] [1778672472.281264034]: Loading point cloud from pcd file.[0m
+[0m[INFO] [1778672472.466383131]: Sucessfully load pcd, pointcloud size: 4000032[0m
+[0m[INFO] [1778672472.466411544]: Building Voxel[0m
+[0m[INFO] [1778672489.271538827]: Extracting Lidar Edge[0m
+[0m[INFO] [1778672511.104972081]: Finish prepare![0m
+Initial rotation matrix:
+-0.0027468  -0.999635 -0.0268913
+   0.35626  0.0241488  -0.934075
+  0.934383  -0.012146   0.356063
+Initial translation:     0  -0.07 -0.095
+
+(Initial extrinsic:84): dbind-WARNING **: 11:41:51.521: Couldn't connect to accessibility bus: Failed to connect to socket /run/user/1000/at-spi/bus_1: No such file or directory
+Gtk-Message: 11:41:51.543: Failed to load module "canberra-gtk-module"
+Gtk-Message: 11:41:51.543: Failed to load module "canberra-gtk-module"
+n 0 round 0 iter 0 cost:4.9324
+Rough calibration min cost:4.9324
+n 0 round 0 iter 1 cost:4.9324
+n 0 round 0 iter 2 cost:4.93391
+n 0 round 0 iter 3 cost:4.93119
+Rough calibration min cost:4.93119
+n 0 round 0 iter 4 cost:4.93406
+n 0 round 0 iter 5 cost:4.92763
+Rough calibration min cost:4.92763
+n 0 round 0 iter 6 cost:4.93702
+n 0 round 0 iter 7 cost:4.92611
+Rough calibration min cost:4.92611
+n 0 round 0 iter 8 cost:4.93891
+n 0 round 0 iter 9 cost:4.92687
+n 0 round 0 iter 10 cost:4.93543
+n 0 round 0 iter 11 cost:4.92498
+Rough calibration min cost:4.92498
+n 0 round 0 iter 12 cost:4.93709
+n 0 round 0 iter 13 cost:4.92233
+Rough calibration min cost:4.92233
+n 0 round 0 iter 14 cost:4.93989
+n 0 round 0 iter 15 cost:4.92142
+Rough calibration min cost:4.92142
+n 0 round 0 iter 16 cost:4.94178
+n 0 round 0 iter 17 cost:4.91854
+Rough calibration min cost:4.91854
+n 0 round 0 iter 18 cost:4.93906
+n 0 round 0 iter 19 cost:4.92127
+n 0 round 0 iter 20 cost:4.93815
+n 0 round 0 iter 21 cost:4.91991
+n 0 round 0 iter 22 cost:4.93876
+n 0 round 0 iter 23 cost:4.91817
+Rough calibration min cost:4.91817
+n 0 round 0 iter 24 cost:4.93558
+n 0 round 0 iter 25 cost:4.9168
+Rough calibration min cost:4.9168
+n 0 round 0 iter 26 cost:4.93293
+n 0 round 0 iter 27 cost:4.91453
+Rough calibration min cost:4.91453
+n 0 round 0 iter 28 cost:4.93331
+n 0 round 0 iter 29 cost:4.91446
+Rough calibration min cost:4.91446
+n 0 round 0 iter 30 cost:4.93474
+n 0 round 0 iter 31 cost:4.91287
+Rough calibration min cost:4.91287
+n 0 round 0 iter 32 cost:4.9355
+n 0 round 0 iter 33 cost:4.91219
+Rough calibration min cost:4.91219
+n 0 round 0 iter 34 cost:4.93308
+n 0 round 0 iter 35 cost:4.91007
+Rough calibration min cost:4.91007
+n 0 round 0 iter 36 cost:4.93073
+n 0 round 0 iter 37 cost:4.91362
+n 0 round 0 iter 38 cost:4.92975
+n 0 round 0 iter 39 cost:4.91385
+n 0 round 1 iter 0 cost:4.91007
+Rough calibration min cost:4.91007
+n 0 round 1 iter 1 cost:4.91007
+n 0 round 1 iter 2 cost:4.90984
+Rough calibration min cost:4.90984
+n 0 round 1 iter 3 cost:4.91113
+n 0 round 1 iter 4 cost:4.91158
+n 0 round 1 iter 5 cost:4.90923
+Rough calibration min cost:4.90923
+n 0 round 1 iter 6 cost:4.91552
+n 0 round 1 iter 7 cost:4.90931
+n 0 round 1 iter 8 cost:4.91733
+n 0 round 1 iter 9 cost:4.91075
+n 0 round 1 iter 10 cost:4.91627
+n 0 round 1 iter 11 cost:4.91044
+n 0 round 1 iter 12 cost:4.91521
+n 0 round 1 iter 13 cost:4.90636
+Rough calibration min cost:4.90636
+n 0 round 1 iter 14 cost:4.91438
+n 0 round 1 iter 15 cost:4.90696
+n 0 round 1 iter 16 cost:4.91287
+n 0 round 1 iter 17 cost:4.90636
+n 0 round 1 iter 18 cost:4.91196
+n 0 round 1 iter 19 cost:4.90461
+Rough calibration min cost:4.90461
+n 0 round 1 iter 20 cost:4.9106
+n 0 round 1 iter 21 cost:4.90272
+Rough calibration min cost:4.90272
+n 0 round 1 iter 22 cost:4.914
+n 0 round 1 iter 23 cost:4.90666
+n 0 round 1 iter 24 cost:4.91521
+n 0 round 1 iter 25 cost:4.90416
+n 0 round 1 iter 26 cost:4.9187
+n 0 round 1 iter 27 cost:4.90303
+n 0 round 1 iter 28 cost:4.92309
+n 0 round 1 iter 29 cost:4.90303
+n 0 round 1 iter 30 cost:4.92733
+n 0 round 1 iter 31 cost:4.90363
+n 0 round 1 iter 32 cost:4.93096
+n 0 round 1 iter 33 cost:4.90136
+Rough calibration min cost:4.90136
+n 0 round 1 iter 34 cost:4.93164
+n 0 round 1 iter 35 cost:4.90174
+n 0 round 1 iter 36 cost:4.93527
+n 0 round 1 iter 37 cost:4.89886
+Rough calibration min cost:4.89886
+n 0 round 1 iter 38 cost:4.93732
+n 0 round 1 iter 39 cost:4.89909
+n 0 round 2 iter 0 cost:4.89886
+Rough calibration min cost:4.89886
+n 0 round 2 iter 1 cost:4.89886
+n 0 round 2 iter 2 cost:4.90181
+n 0 round 2 iter 3 cost:4.90038
+n 0 round 2 iter 4 cost:4.90181
+n 0 round 2 iter 5 cost:4.90174
+n 0 round 2 iter 6 cost:4.9003
+n 0 round 2 iter 7 cost:4.90212
+n 0 round 2 iter 8 cost:4.90181
+n 0 round 2 iter 9 cost:4.89985
+n 0 round 2 iter 10 cost:4.90507
+n 0 round 2 iter 11 cost:4.90371
+n 0 round 2 iter 12 cost:4.90227
+n 0 round 2 iter 13 cost:4.90416
+n 0 round 2 iter 14 cost:4.90408
+n 0 round 2 iter 15 cost:4.90355
+n 0 round 2 iter 16 cost:4.90401
+n 0 round 2 iter 17 cost:4.90446
+n 0 round 2 iter 18 cost:4.90742
+n 0 round 2 iter 19 cost:4.90817
+n 0 round 2 iter 20 cost:4.91082
+n 0 round 2 iter 21 cost:4.91052
+n 0 round 2 iter 22 cost:4.91529
+n 0 round 2 iter 23 cost:4.91219
+n 0 round 2 iter 24 cost:4.91862
+n 0 round 2 iter 25 cost:4.91635
+n 0 round 2 iter 26 cost:4.92278
+n 0 round 2 iter 27 cost:4.91907
+n 0 round 2 iter 28 cost:4.92536
+n 0 round 2 iter 29 cost:4.92059
+n 0 round 2 iter 30 cost:4.9327
+n 0 round 2 iter 31 cost:4.92188
+n 0 round 2 iter 32 cost:4.93437
+n 0 round 2 iter 33 cost:4.92407
+n 0 round 2 iter 34 cost:4.93838
+n 0 round 2 iter 35 cost:4.92589
+n 0 round 2 iter 36 cost:4.9405
+n 0 round 2 iter 37 cost:4.92445
+n 0 round 2 iter 38 cost:4.94519
+n 0 round 2 iter 39 cost:4.924
+n 1 round 0 iter 0 cost:4.89886
+Rough calibration min cost:4.89886
+n 1 round 0 iter 1 cost:4.89886
+n 1 round 0 iter 2 cost:4.89795
+Rough calibration min cost:4.89795
+n 1 round 0 iter 3 cost:4.90113
+n 1 round 0 iter 4 cost:4.89901
+n 1 round 0 iter 5 cost:4.90567
+n 1 round 0 iter 6 cost:4.89689
+Rough calibration min cost:4.89689
+n 1 round 0 iter 7 cost:4.90658
+n 1 round 0 iter 8 cost:4.89175
+Rough calibration min cost:4.89175
+n 1 round 0 iter 9 cost:4.90961
+n 1 round 0 iter 10 cost:4.89712
+n 1 round 0 iter 11 cost:4.91332
+n 1 round 0 iter 12 cost:4.90197
+n 1 round 0 iter 13 cost:4.91377
+n 1 round 0 iter 14 cost:4.9
+n 1 round 0 iter 15 cost:4.91998
+n 1 round 0 iter 16 cost:4.90378
+n 1 round 0 iter 17 cost:4.92278
+n 1 round 0 iter 18 cost:4.90567
+n 1 round 0 iter 19 cost:4.9246
+n 1 round 0 iter 20 cost:4.91196
+n 1 round 0 iter 21 cost:4.92574
+n 1 round 0 iter 22 cost:4.91415
+n 1 round 0 iter 23 cost:4.92884
+n 1 round 0 iter 24 cost:4.91733
+n 1 round 0 iter 25 cost:4.92922
+n 1 round 0 iter 26 cost:4.92142
+n 1 round 0 iter 27 cost:4.93255
+n 1 round 0 iter 28 cost:4.92581
+n 1 round 0 iter 29 cost:4.93399
+n 1 round 0 iter 30 cost:4.92543
+n 1 round 0 iter 31 cost:4.93331
+n 1 round 0 iter 32 cost:4.92589
+n 1 round 0 iter 33 cost:4.93406
+n 1 round 0 iter 34 cost:4.92846
+n 1 round 0 iter 35 cost:4.93331
+n 1 round 0 iter 36 cost:4.93474
+n 1 round 0 iter 37 cost:4.93717
+n 1 round 0 iter 38 cost:4.93444
+n 1 round 0 iter 39 cost:4.93914
+n 1 round 1 iter 0 cost:4.89175
+Rough calibration min cost:4.89175
+n 1 round 1 iter 1 cost:4.89175
+n 1 round 1 iter 2 cost:4.89356
+n 1 round 1 iter 3 cost:4.89167
+Rough calibration min cost:4.89167
+n 1 round 1 iter 4 cost:4.89651
+n 1 round 1 iter 5 cost:4.89485
+n 1 round 1 iter 6 cost:4.89924
+n 1 round 1 iter 7 cost:4.89447
+n 1 round 1 iter 8 cost:4.90106
+n 1 round 1 iter 9 cost:4.89735
+n 1 round 1 iter 10 cost:4.90371
+n 1 round 1 iter 11 cost:4.89863
+n 1 round 1 iter 12 cost:4.90454
+n 1 round 1 iter 13 cost:4.89848
+n 1 round 1 iter 14 cost:4.90598
+n 1 round 1 iter 15 cost:4.90098
+n 1 round 1 iter 16 cost:4.9056
+n 1 round 1 iter 17 cost:4.90022
+n 1 round 1 iter 18 cost:4.90514
+n 1 round 1 iter 19 cost:4.90144
+n 1 round 1 iter 20 cost:4.90795
+n 1 round 1 iter 21 cost:4.90249
+n 1 round 1 iter 22 cost:4.90787
+n 1 round 1 iter 23 cost:4.9062
+n 1 round 1 iter 24 cost:4.91173
+n 1 round 1 iter 25 cost:4.91052
+n 1 round 1 iter 26 cost:4.91362
+n 1 round 1 iter 27 cost:4.90832
+n 1 round 1 iter 28 cost:4.91302
+n 1 round 1 iter 29 cost:4.91173
+n 1 round 1 iter 30 cost:4.91612
+n 1 round 1 iter 31 cost:4.90848
+n 1 round 1 iter 32 cost:4.91589
+n 1 round 1 iter 33 cost:4.90984
+n 1 round 1 iter 34 cost:4.91642
+n 1 round 1 iter 35 cost:4.90946
+n 1 round 1 iter 36 cost:4.91559
+n 1 round 1 iter 37 cost:4.91029
+n 1 round 1 iter 38 cost:4.91658
+n 1 round 1 iter 39 cost:4.90908
+n 1 round 2 iter 0 cost:4.89167
+Rough calibration min cost:4.89167
+n 1 round 2 iter 1 cost:4.89167
+n 1 round 2 iter 2 cost:4.89697
+n 1 round 2 iter 3 cost:4.89281
+n 1 round 2 iter 4 cost:4.89303
+n 1 round 2 iter 5 cost:4.9
+n 1 round 2 iter 6 cost:4.89076
+Rough calibration min cost:4.89076
+n 1 round 2 iter 7 cost:4.90166
+n 1 round 2 iter 8 cost:4.89212
+n 1 round 2 iter 9 cost:4.9034
+n 1 round 2 iter 10 cost:4.89296
+n 1 round 2 iter 11 cost:4.90779
+n 1 round 2 iter 12 cost:4.89364
+n 1 round 2 iter 13 cost:4.9087
+n 1 round 2 iter 14 cost:4.89742
+n 1 round 2 iter 15 cost:4.91324
+n 1 round 2 iter 16 cost:4.8981
+n 1 round 2 iter 17 cost:4.91438
+n 1 round 2 iter 18 cost:4.8978
+n 1 round 2 iter 19 cost:4.91968
+n 1 round 2 iter 20 cost:4.89689
+n 1 round 2 iter 21 cost:4.92468
+n 1 round 2 iter 22 cost:4.90318
+n 1 round 2 iter 23 cost:4.92324
+n 1 round 2 iter 24 cost:4.90424
+n 1 round 2 iter 25 cost:4.92362
+n 1 round 2 iter 26 cost:4.9115
+n 1 round 2 iter 27 cost:4.92513
+n 1 round 2 iter 28 cost:4.91658
+n 1 round 2 iter 29 cost:4.92581
+n 1 round 2 iter 30 cost:4.91945
+n 1 round 2 iter 31 cost:4.92717
+n 1 round 2 iter 32 cost:4.92331
+n 1 round 2 iter 33 cost:4.92899
+n 1 round 2 iter 34 cost:4.92498
+n 1 round 2 iter 35 cost:4.93096
+n 1 round 2 iter 36 cost:4.92445
+n 1 round 2 iter 37 cost:4.9327
+n 1 round 2 iter 38 cost:4.92513
+n 1 round 2 iter 39 cost:4.93444
+Iteration:0 Dis:30 pnp size: 12690
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  1.070858e+06    0.00e+00    1.09e+06   0.00e+00   0.00e+00  1.00e+04        0    1.19e+00    1.20e+00
+   1  1.034999e+06    3.59e+04    1.96e+04   1.13e-02   9.99e-01  3.00e+04        1    1.28e+00    2.47e+00
+   2  1.034995e+06    3.88e+00    4.60e+02   2.75e-04   9.77e-01  9.00e+04        1    1.26e+00    3.73e+00
+Ceres Solver Report: Iterations: 3, Initial cost: 1.070858e+06, Final cost: 1.034995e+06, Termination: CONVERGENCE
+q_dis:0.444874 ,t_dis:0.0105373
+Iteration:1 Dis:30 pnp size: 12839
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  1.019156e+06    0.00e+00    8.17e+05   0.00e+00   0.00e+00  1.00e+04        0    1.22e+00    1.23e+00
+   1  9.984900e+05    2.07e+04    2.51e+04   1.10e-02   9.94e-01  3.00e+04        1    1.28e+00    2.50e+00
+   2  9.984829e+05    7.11e+00    8.04e+02   4.23e-04   9.69e-01  9.00e+04        1    1.28e+00    3.78e+00
+Ceres Solver Report: Iterations: 3, Initial cost: 1.019156e+06, Final cost: 9.984829e+05, Termination: CONVERGENCE
+q_dis:0.322482 ,t_dis:0.010314
+Iteration:2 Dis:29 pnp size: 12666
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  8.851303e+05    0.00e+00    8.97e+05   0.00e+00   0.00e+00  1.00e+04        0    1.20e+00    1.20e+00
+   1  8.708127e+05    1.43e+04    1.21e+04   5.08e-03   9.96e-01  3.00e+04        1    1.26e+00    2.46e+00
+   2  8.708108e+05    1.94e+00    3.33e+02   2.33e-04   9.74e-01  9.00e+04        1    1.25e+00    3.71e+00
+Ceres Solver Report: Iterations: 3, Initial cost: 8.851303e+05, Final cost: 8.708108e+05, Termination: CONVERGENCE
+q_dis:0.237787 ,t_dis:0.0044069
+Iteration:3 Dis:29 pnp size: 12779
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  8.863329e+05    0.00e+00    1.20e+06   0.00e+00   0.00e+00  1.00e+04        0    1.20e+00    1.20e+00
+   1  8.767443e+05    9.59e+03    5.81e+03   2.30e-03   9.97e-01  3.00e+04        1    1.26e+00    2.47e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 8.863329e+05, Final cost: 8.767443e+05, Termination: CONVERGENCE
+q_dis:0.1543 ,t_dis:0.00186895
+Iteration:4 Dis:28 pnp size: 12412
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  8.157632e+05    0.00e+00    1.34e+06   0.00e+00   0.00e+00  1.00e+04        0    1.17e+00    1.17e+00
+   1  8.076077e+05    8.16e+03    5.17e+03   3.66e-03   9.98e-01  3.00e+04        1    1.23e+00    2.40e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 8.157632e+05, Final cost: 8.076077e+05, Termination: CONVERGENCE
+q_dis:0.128431 ,t_dis:0.00347964
+Iteration:5 Dis:28 pnp size: 12549
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  7.798329e+05    0.00e+00    1.92e+06   0.00e+00   0.00e+00  1.00e+04        0    1.19e+00    1.19e+00
+   1  7.666052e+05    1.32e+04    2.92e+03   5.63e-03   9.99e-01  3.00e+04        1    1.25e+00    2.44e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 7.798329e+05, Final cost: 7.666052e+05, Termination: CONVERGENCE
+q_dis:0.163555 ,t_dis:0.00544277
+Iteration:6 Dis:27 pnp size: 12317
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  6.638008e+05    0.00e+00    2.54e+06   0.00e+00   0.00e+00  1.00e+04        0    1.16e+00    1.16e+00
+   1  6.367204e+05    2.71e+04    4.35e+03   8.96e-03   1.00e+00  3.00e+04        1    1.23e+00    2.39e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 6.638008e+05, Final cost: 6.367204e+05, Termination: CONVERGENCE
+q_dis:0.262407 ,t_dis:0.00866391
+Iteration:7 Dis:27 pnp size: 12558
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  6.680619e+05    0.00e+00    2.66e+06   0.00e+00   0.00e+00  1.00e+04        0    1.19e+00    1.19e+00
+   1  6.300375e+05    3.80e+04    5.23e+03   1.09e-02   1.00e+00  3.00e+04        1    1.24e+00    2.43e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 6.680619e+05, Final cost: 6.300375e+05, Termination: CONVERGENCE
+q_dis:0.331049 ,t_dis:0.0105518
+Iteration:8 Dis:26 pnp size: 12357
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  5.836479e+05    0.00e+00    1.99e+06   0.00e+00   0.00e+00  1.00e+04        0    1.18e+00    1.18e+00
+   1  5.641314e+05    1.95e+04    3.57e+03   8.14e-03   9.99e-01  3.00e+04        1    1.24e+00    2.42e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 5.836479e+05, Final cost: 5.641314e+05, Termination: CONVERGENCE
+q_dis:0.254985 ,t_dis:0.00782487
+Iteration:9 Dis:26 pnp size: 12386
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  5.469390e+05    0.00e+00    1.67e+06   0.00e+00   0.00e+00  1.00e+04        0    1.17e+00    1.17e+00
+   1  5.320877e+05    1.49e+04    2.99e+03   5.99e-03   1.00e+00  3.00e+04        1    1.24e+00    2.41e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 5.469390e+05, Final cost: 5.320877e+05, Termination: CONVERGENCE
+q_dis:0.238629 ,t_dis:0.00561472
+Iteration:10 Dis:25 pnp size: 12113
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  4.699885e+05    0.00e+00    6.28e+05   0.00e+00   0.00e+00  1.00e+04        0    1.14e+00    1.15e+00
+   1  4.665851e+05    3.40e+03    1.19e+03   1.85e-03   1.00e+00  3.00e+04        1    1.21e+00    2.36e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 4.699885e+05, Final cost: 4.665851e+05, Termination: CONVERGENCE
+q_dis:0.125752 ,t_dis:0.00148758
+Iteration:11 Dis:25 pnp size: 12091
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  4.594157e+05    0.00e+00    3.42e+05   0.00e+00   0.00e+00  1.00e+04        0    1.14e+00    1.14e+00
+   1  4.583723e+05    1.04e+03    8.63e+02   1.06e-03   1.00e+00  3.00e+04        1    1.21e+00    2.35e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 4.594157e+05, Final cost: 4.583723e+05, Termination: CONVERGENCE
+q_dis:0.0688568 ,t_dis:0.000878003
+Iteration:12 Dis:24 pnp size: 11734
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  4.108001e+05    0.00e+00    2.83e+05   0.00e+00   0.00e+00  1.00e+04        0    1.11e+00    1.11e+00
+   1  4.101810e+05    6.19e+02    1.59e+02   3.14e-03   1.00e+00  3.00e+04        1    1.17e+00    2.28e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 4.108001e+05, Final cost: 4.101810e+05, Termination: CONVERGENCE
+q_dis:0.0532994 ,t_dis:0.00310187
+Iteration:13 Dis:24 pnp size: 11675
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  4.077706e+05    0.00e+00    8.57e+04   0.00e+00   0.00e+00  1.00e+04        0    1.11e+00    1.11e+00
+   1  4.075691e+05    2.02e+02    2.35e+02   3.33e-03   9.92e-01  3.00e+04        1    1.16e+00    2.28e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 4.077706e+05, Final cost: 4.075691e+05, Termination: CONVERGENCE
+q_dis:0.0434645 ,t_dis:0.00330405
+Iteration:14 Dis:23 pnp size: 11476
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  3.806217e+05    0.00e+00    1.79e+05   0.00e+00   0.00e+00  1.00e+04        0    1.09e+00    1.09e+00
+   1  3.803143e+05    3.07e+02    1.33e+03   1.28e-03   9.92e-01  3.00e+04        1    1.15e+00    2.24e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 3.806217e+05, Final cost: 3.803143e+05, Termination: CONVERGENCE
+q_dis:0.0372082 ,t_dis:0.00123737
+Iteration:15 Dis:23 pnp size: 11537
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  3.786625e+05    0.00e+00    2.23e+05   0.00e+00   0.00e+00  1.00e+04        0    1.09e+00    1.09e+00
+   1  3.785326e+05    1.30e+02    5.55e+02   1.09e-03   9.97e-01  3.00e+04        1    1.15e+00    2.24e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 3.786625e+05, Final cost: 3.785326e+05, Termination: CONVERGENCE
+q_dis:0.013186 ,t_dis:0.00108191
+Iteration:16 Dis:22 pnp size: 11316
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  3.576502e+05    0.00e+00    8.99e+04   0.00e+00   0.00e+00  1.00e+04        0    1.07e+00    1.07e+00
+   1  3.575289e+05    1.21e+02    1.39e+03   1.64e-03   9.82e-01  3.00e+04        1    1.14e+00    2.21e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 3.576502e+05, Final cost: 3.575289e+05, Termination: CONVERGENCE
+q_dis:0.0312825 ,t_dis:0.00161403
+Iteration:17 Dis:22 pnp size: 11341
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  3.555511e+05    0.00e+00    5.32e+04   0.00e+00   0.00e+00  1.00e+04        0    1.08e+00    1.08e+00
+   1  3.554733e+05    7.78e+01    1.07e+03   1.74e-03   9.79e-01  3.00e+04        1    1.14e+00    2.22e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 3.555511e+05, Final cost: 3.554733e+05, Termination: CONVERGENCE
+q_dis:0.0268948 ,t_dis:0.00172645
+Iteration:18 Dis:21 pnp size: 11194
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  3.388503e+05    0.00e+00    6.36e+04   0.00e+00   0.00e+00  1.00e+04        0    1.05e+00    1.05e+00
+   1  3.387994e+05    5.09e+01    2.64e+02   1.55e-03   9.88e-01  3.00e+04        1    1.11e+00    2.17e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 3.388503e+05, Final cost: 3.387994e+05, Termination: CONVERGENCE
+q_dis:0.0248538 ,t_dis:0.00153077
+Iteration:19 Dis:21 pnp size: 11197
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  3.373196e+05    0.00e+00    5.14e+04   0.00e+00   0.00e+00  1.00e+04        0    1.05e+00    1.06e+00
+   1  3.372809e+05    3.87e+01    4.34e+02   3.86e-04   9.90e-01  3.00e+04        1    1.12e+00    2.17e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 3.373196e+05, Final cost: 3.372809e+05, Termination: CONVERGENCE
+q_dis:0.0155012 ,t_dis:0.000361522
+Iteration:20 Dis:20 pnp size: 10972
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  3.078377e+05    0.00e+00    8.77e+04   0.00e+00   0.00e+00  1.00e+04        0    1.04e+00    1.04e+00
+   1  3.076037e+05    2.34e+02    6.84e+02   2.25e-03   9.98e-01  3.00e+04        1    1.09e+00    2.13e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 3.078377e+05, Final cost: 3.076037e+05, Termination: CONVERGENCE
+q_dis:0.0330514 ,t_dis:0.00223455
+Iteration:21 Dis:20 pnp size: 10853
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  3.015808e+05    0.00e+00    1.20e+05   0.00e+00   0.00e+00  1.00e+04        0    1.02e+00    1.02e+00
+   1  3.012920e+05    2.89e+02    4.59e+02   1.78e-03   1.00e+00  3.00e+04        1    1.08e+00    2.10e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 3.015808e+05, Final cost: 3.012920e+05, Termination: CONVERGENCE
+q_dis:0.0344778 ,t_dis:0.00175668
+Iteration:22 Dis:19 pnp size: 10571
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  2.673364e+05    0.00e+00    3.30e+05   0.00e+00   0.00e+00  1.00e+04        0    9.98e-01    9.99e-01
+   1  2.663456e+05    9.91e+02    1.35e+03   4.57e-03   9.97e-01  3.00e+04        1    1.06e+00    2.06e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 2.673364e+05, Final cost: 2.663456e+05, Termination: CONVERGENCE
+q_dis:0.0608572 ,t_dis:0.0045382
+Iteration:23 Dis:19 pnp size: 10521
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  2.647832e+05    0.00e+00    4.15e+05   0.00e+00   0.00e+00  1.00e+04        0    9.95e-01    9.96e-01
+   1  2.639284e+05    8.55e+02    1.79e+03   3.34e-03   9.96e-01  3.00e+04        1    1.04e+00    2.04e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 2.647832e+05, Final cost: 2.639284e+05, Termination: CONVERGENCE
+q_dis:0.0323926 ,t_dis:0.00332632
+Iteration:24 Dis:18 pnp size: 10169
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  2.240709e+05    0.00e+00    4.06e+05   0.00e+00   0.00e+00  1.00e+04        0    9.68e-01    9.69e-01
+   1  2.225222e+05    1.55e+03    1.47e+03   4.05e-03   9.99e-01  3.00e+04        1    1.03e+00    2.00e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 2.240709e+05, Final cost: 2.225222e+05, Termination: CONVERGENCE
+q_dis:0.0729765 ,t_dis:0.00400366
+Iteration:25 Dis:18 pnp size: 10212
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  2.216024e+05    0.00e+00    2.48e+05   0.00e+00   0.00e+00  1.00e+04        0    9.64e-01    9.65e-01
+   1  2.208853e+05    7.17e+02    7.83e+02   2.26e-03   9.99e-01  3.00e+04        1    1.02e+00    1.99e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 2.216024e+05, Final cost: 2.208853e+05, Termination: CONVERGENCE
+q_dis:0.0591971 ,t_dis:0.00219625
+Iteration:26 Dis:17 pnp size: 9972
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  1.994931e+05    0.00e+00    1.64e+05   0.00e+00   0.00e+00  1.00e+04        0    9.47e-01    9.48e-01
+   1  1.990027e+05    4.90e+02    8.61e+02   1.99e-03   9.99e-01  3.00e+04        1    1.00e+00    1.95e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 1.994931e+05, Final cost: 1.990027e+05, Termination: CONVERGENCE
+q_dis:0.0510592 ,t_dis:0.00194259
+Iteration:27 Dis:17 pnp size: 9947
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  1.972096e+05    0.00e+00    8.99e+04   0.00e+00   0.00e+00  1.00e+04        0    9.31e-01    9.33e-01
+   1  1.970073e+05    2.02e+02    7.02e+02   1.78e-03   9.95e-01  3.00e+04        1    9.89e-01    1.92e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 1.972096e+05, Final cost: 1.970073e+05, Termination: CONVERGENCE
+q_dis:0.0299531 ,t_dis:0.00175624
+Iteration:28 Dis:16 pnp size: 9713
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  1.765856e+05    0.00e+00    1.55e+05   0.00e+00   0.00e+00  1.00e+04        0    9.25e-01    9.26e-01
+   1  1.762690e+05    3.17e+02    1.36e+02   1.65e-03   1.00e+00  3.00e+04        1    9.61e-01    1.89e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 1.765856e+05, Final cost: 1.762690e+05, Termination: CONVERGENCE
+q_dis:0.0453961 ,t_dis:0.00160103
+Iteration:29 Dis:16 pnp size: 9747
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  1.748228e+05    0.00e+00    1.34e+05   0.00e+00   0.00e+00  1.00e+04        0    9.20e-01    9.21e-01
+   1  1.746839e+05    1.39e+02    1.08e+02   1.25e-03   1.00e+00  3.00e+04        1    9.69e-01    1.89e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 1.748228e+05, Final cost: 1.746839e+05, Termination: CONVERGENCE
+q_dis:0.0286908 ,t_dis:0.00122054
+Iteration:30 Dis:15 pnp size: 9459
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  1.573843e+05    0.00e+00    4.32e+04   0.00e+00   0.00e+00  1.00e+04        0    8.97e-01    8.98e-01
+   1  1.572975e+05    8.68e+01    5.22e+02   8.58e-04   9.94e-01  3.00e+04        1    9.39e-01    1.84e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 1.573843e+05, Final cost: 1.572975e+05, Termination: CONVERGENCE
+q_dis:0.0248994 ,t_dis:0.000829979
+Iteration:31 Dis:15 pnp size: 9430
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  1.561249e+05    0.00e+00    4.87e+04   0.00e+00   0.00e+00  1.00e+04        0    8.90e-01    8.91e-01
+   1  1.560645e+05    6.04e+01    5.04e+02   7.21e-04   9.93e-01  3.00e+04        1    9.35e-01    1.83e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 1.561249e+05, Final cost: 1.560645e+05, Termination: CONVERGENCE
+q_dis:0.0186485 ,t_dis:0.000702215
+Iteration:32 Dis:14 pnp size: 9092
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  1.380735e+05    0.00e+00    3.95e+04   0.00e+00   0.00e+00  1.00e+04        0    8.66e-01    8.67e-01
+   1  1.379926e+05    8.09e+01    2.50e+02   1.66e-03   9.97e-01  3.00e+04        1    9.06e-01    1.77e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 1.380735e+05, Final cost: 1.379926e+05, Termination: CONVERGENCE
+q_dis:0.0220204 ,t_dis:0.00165364
+Iteration:33 Dis:14 pnp size: 9168
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  1.369792e+05    0.00e+00    6.99e+04   0.00e+00   0.00e+00  1.00e+04        0    8.62e-01    8.63e-01
+   1  1.368936e+05    8.56e+01    2.59e+02   1.98e-03   9.97e-01  3.00e+04        1    9.13e-01    1.78e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 1.369792e+05, Final cost: 1.368936e+05, Termination: CONVERGENCE
+q_dis:0.0192766 ,t_dis:0.00197516
+Iteration:34 Dis:13 pnp size: 8805
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  1.156899e+05    0.00e+00    1.43e+05   0.00e+00   0.00e+00  1.00e+04        0    8.40e-01    8.41e-01
+   1  1.152984e+05    3.91e+02    6.30e+02   4.78e-03   9.96e-01  3.00e+04        1    8.83e-01    1.72e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 1.156899e+05, Final cost: 1.152984e+05, Termination: CONVERGENCE
+q_dis:0.0297046 ,t_dis:0.00477392
+Iteration:35 Dis:13 pnp size: 8786
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  1.129349e+05    0.00e+00    7.85e+04   0.00e+00   0.00e+00  1.00e+04        0    8.33e-01    8.34e-01
+   1  1.127679e+05    1.67e+02    4.70e+02   2.79e-03   9.95e-01  3.00e+04        1    8.79e-01    1.71e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 1.129349e+05, Final cost: 1.127679e+05, Termination: CONVERGENCE
+q_dis:0.0190209 ,t_dis:0.00278431
+Iteration:36 Dis:12 pnp size: 8402
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  9.643907e+04    0.00e+00    6.38e+04   0.00e+00   0.00e+00  1.00e+04        0    7.99e-01    8.01e-01
+   1  9.631697e+04    1.22e+02    3.98e+02   2.65e-03   9.97e-01  3.00e+04        1    8.41e-01    1.64e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 9.643907e+04, Final cost: 9.631697e+04, Termination: CONVERGENCE
+q_dis:0.0213799 ,t_dis:0.00263897
+Iteration:37 Dis:12 pnp size: 8336
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  9.523749e+04    0.00e+00    4.23e+04   0.00e+00   0.00e+00  1.00e+04        0    7.95e-01    7.96e-01
+   1  9.513756e+04    9.99e+01    3.76e+02   2.15e-03   9.96e-01  3.00e+04        1    8.31e-01    1.63e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 9.523749e+04, Final cost: 9.513756e+04, Termination: CONVERGENCE
+q_dis:0.0238213 ,t_dis:0.00213819
+Iteration:38 Dis:11 pnp size: 7820
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  7.451139e+04    0.00e+00    7.56e+04   0.00e+00   0.00e+00  1.00e+04        0    7.42e-01    7.43e-01
+   1  7.433843e+04    1.73e+02    2.89e+02   2.72e-03   1.00e+00  3.00e+04        1    7.76e-01    1.52e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 7.451139e+04, Final cost: 7.433843e+04, Termination: CONVERGENCE
+q_dis:0.0326383 ,t_dis:0.00270182
+Iteration:39 Dis:11 pnp size: 7870
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  7.473678e+04    0.00e+00    2.10e+04   0.00e+00   0.00e+00  1.00e+04        0    7.42e-01    7.43e-01
+   1  7.459633e+04    1.40e+02    3.28e+02   2.41e-03   1.00e+00  3.00e+04        1    7.82e-01    1.53e+00
+Ceres Solver Report: Iterations: 2, Initial cost: 7.473678e+04, Final cost: 7.459633e+04, Termination: CONVERGENCE
+q_dis:0.0343508 ,t_dis:0.00238675
