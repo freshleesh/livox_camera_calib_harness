@@ -11,7 +11,7 @@ Usage:
   source /opt/ros/humble/setup.bash
   python3 collect_calib_data.py \
       --lidar /livox/lidar \
-      --image /camera/image_raw/compressed \
+      --image /image_raw/compressed \
       --secs 20
 """
 
@@ -184,7 +184,7 @@ def main() -> None:
         description="Collect paired PCD + image scenes for livox_camera_calib"
     )
     parser.add_argument("--lidar", default="/livox/lidar")
-    parser.add_argument("--image", default="/camera/image_raw/compressed")
+    parser.add_argument("--image", default="/image_raw/compressed")
     parser.add_argument("--out", default=DEFAULT_OUT, type=Path)
     parser.add_argument("--secs", type=float, default=20.0)
     args = parser.parse_args()
